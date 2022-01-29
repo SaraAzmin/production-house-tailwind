@@ -35,18 +35,34 @@
 </head>
 
 <body>
-    <header class="w-full h-20 flex justify-center">
 
-        <!-- navbar start -->
+    <!-- navbar start -->
+    <header class="w-full h-20 flex justify-center absolute bg-white">
         <nav class="w-4/5 flex justify-between items-center font-bebas">
             <h1 class="text-3xl uppercase">Sparkle Production House</h1>
-            <ul class="flex gap-x-5 text-xl">
+            <ul class="md:flex gap-x-5 text-xl hidden">
                 <li>About Us</li>
                 <li>Our Movies</li>
                 <li>Services</li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <!-- banner part start -->
+        <section class="h-screen flex items-center bg-cover bg-[url('./images/banner.jpg')]">
+            <div class="mx-20 font-bebas text-white w-2/4">
+                <p>Movie production studio</p>
+                <h1 class="text-7xl">Films MAde to</h1>
+                <h1 class="text-7xl text-yellow">Perfection</h1>
+                <p class="font-montserrat mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <button
+                    class="border-2 px-5 py-2 text-xl mt-10 hover:bg-yellow hover:text-black hover:border-yellow">Discover
+                    More</button>
+            </div>
+        </section>
+    </main>
 
 </body>
 
