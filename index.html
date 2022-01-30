@@ -40,9 +40,15 @@
         <nav class="w-4/5 flex justify-between items-center font-bebas">
             <h1 class="text-3xl uppercase">Sparkle Production House</h1>
             <ul class="md:flex gap-x-5 text-xl hidden">
-                <li>About Us</li>
-                <li>Our Movies</li>
-                <li>Services</li>
+                <a href="#about">
+                    <li class="cursor-pointer">About Us</li>
+                </a>
+                <a href="#movies">
+                    <li class="cursor-pointer">Our Movies</li>
+                </a>
+                <a href="#services">
+                    <li class="cursor-pointer">Services</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -64,7 +70,7 @@
         </section>
 
         <!-- about us part start -->
-        <section class="p-10 md:p-20">
+        <section id="about" class="p-10 md:p-20">
             <div class="border-2 border-offBlack p-10">
                 <div class="lg:flex gap-x-10">
                     <div
@@ -111,7 +117,7 @@
         </section>
 
         <!-- our movies part start-->
-        <section class="bg-darkGray h-full w-full p-10 md:p-20">
+        <section id="movies" class="bg-darkGray h-full w-full p-10 md:p-20">
             <div class="font-bebas text-white">
                 <p>OUR MOVIES</p>
                 <div class="md:flex justify-between items-center">
@@ -165,7 +171,7 @@
         </section>
 
         <!-- our services part start -->
-        <section class="h-full w-full p-10 md:p-20">
+        <section id="services" class="h-full w-full p-10 md:p-20">
             <div class="font-bebas">
                 <p class="text-center">Our Services</p>
                 <h1 class="text-5xl md:text-7xl uppercase text-center">what we offer</h1>
